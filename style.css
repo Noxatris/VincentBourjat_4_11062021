@@ -677,7 +677,15 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 1.3em;
+}
+
+.italic{
+    font-style: italic;
+}
+
+.policeG{
+    font-size: 1.6em;
 }
 
 .tight-width-whitespace {
