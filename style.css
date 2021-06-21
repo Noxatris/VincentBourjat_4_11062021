@@ -747,6 +747,10 @@ h4 {
     color: #FFFFFF!important;
 }
 
+.black {
+    color: #000!important;
+}
+
 .portfolio-thumb {
     margin-bottom: 24px;
 }
@@ -788,12 +792,12 @@ h4 {
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #000!important;
 }
 
 .btn-atomic-tangerine:hover {
     background: #c27956!important;
-    color: #FFFFFF!important;
+    color: #000!important;
 }
 
 .ltc-white {
@@ -1046,5 +1050,53 @@ h4 {
 @media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
+    }
+}
+
+.conteneur_lien{
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    font-size: 1.2em;
+}
+
+.conteneur_lien__partenaires{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    width: 100%;
+}
+
+.conteneur_lien__annuaires{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    width: 100%;
+}
+.conteneur_lien h2{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (min-width: 600px){
+
+    .conteneur_lien{
+        margin: 50px 0;
+    }
+    .conteneur_lien__partenaires{
+        width: 26%;
+        justify-content: flex-start;
+        margin: 0;
+    }
+    
+    .conteneur_lien__annuaires{
+        flex-flow: row wrap;
+        justify-content: center;
+        width: 90%;
     }
 }
