@@ -683,7 +683,9 @@ p {
 .italic{
     font-style: italic;
 }
-
+.policeM{
+    font-size: 1.2em;
+}
 .policeG{
     font-size: 1.6em;
 }
